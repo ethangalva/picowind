@@ -11,19 +11,19 @@ export default function About() {
             {/* STATS */}
             <div className="flex flex-wrap">
                 <div className="w-1/2 flex flex-col text-center pb-4">
-                    <h3 className="font-semibold text-lg">900</h3>
+                    <h3 className="font-bold text-xl">900</h3>
                     <div>Years Experience</div>
                 </div>
                 <div className="w-1/2 flex flex-col text-center pb-4">
-                    <h3 className="font-semibold text-lg">900</h3>
+                    <h3 className="font-bold text-xl">900</h3>
                     <div>Years Experience</div>
                 </div>
                 <div className="w-1/2 flex flex-col text-center pb-4">
-                    <h3 className="font-semibold text-lg">900</h3>
+                    <h3 className="font-bold text-xl">900</h3>
                     <div>Years Experience</div>
                 </div>
                 <div className="w-1/2 flex flex-col text-center pb-4">
-                    <h3 className="font-semibold text-lg">900</h3>
+                    <h3 className="font-bold text-xl">900</h3>
                     <div>Years Experience</div>
                 </div>
             </div>
