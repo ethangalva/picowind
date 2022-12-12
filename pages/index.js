@@ -4,6 +4,7 @@ import Footer from './components/footer'
 import Landing from './components/landing'
 import About from './components/about'
 import Service from './components/service'
+import Project from './components/project'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Landing />
         <About />
         <Service />
+        <Project />
         <Footer />
       </main>
     </div>
