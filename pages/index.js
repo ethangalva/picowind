@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from './components/header'
 import Footer from './components/footer'
 import Landing from './components/landing'
+import About from './components/about'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Header />
         <Landing />
+        <About />
         <Footer />
       </main>
     </div>

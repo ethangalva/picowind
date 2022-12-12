@@ -1,6 +1,7 @@
 export default function Footer() {
     return (
-        <div className="h-screen w-100vw p-6 flex flex-col bg-white rounded-t-3xl justify-between">
+        <div className="min-h-min max-h-fit w-100vw p-6 flex flex-col bg-white rounded-t-3xl justify-between gap-12">
+            {/* SECTION 1 */}
             <div className="flex flex-col gap-8">
                 {/* CONTACT INFO */}
                 <div className="flex flex-col gap-4">
@@ -51,7 +52,7 @@ export default function Footer() {
             {/* SECTION 2 */}
             <div>
                 {/* RIGHTs */}
-                <div className="relative bottom-0 inset-x-0 flex justify-center">
+                <div className="relative bottom-0 inset-x-0 flex justify-start">
                     <a href="https://github.com/ethangalva" target="_blank" rel="noreferrer" className="font-bold hover:underline" >by @ethangalva</a>
                 </div>
             </div>
