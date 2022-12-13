@@ -79,13 +79,3 @@ body:hover > #trailer {
     padding: 0 25px;
   }
 }
-
-@media (prefers-color-scheme: light) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
