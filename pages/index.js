@@ -5,8 +5,25 @@ import Landing from './components/landing'
 import About from './components/about'
 import Service from './components/service'
 import Project from './components/project'
+import Testimonial from './components/testimonial'
 
 export default function Home() {
+  // const trailer = document.getElementById('trailer');
+
+  // window.onmousemove = e => {
+  //   const x = e.clientX - trailer.offsetWidth / 2,
+  //         y = e.clientY - trailer.offsetHeight / 2;
+
+  //   const keyframes = {
+  //     transform: `translate(${x}px, ${y}px)`
+  //   }
+
+  //   trailer.animate(keyframes, {
+  //     duration: 800,
+  //     fill: "forwards"
+  //   })
+  // }
+
   return (
     <div>
       <Head>
@@ -16,11 +33,13 @@ export default function Home() {
       </Head>
 
       <main>
+        <div id="trailer" />
         <Header />
         <Landing />
         <About />
         <Service />
         <Project />
+        <Testimonial />
         <Footer />
       </main>
     </div>
