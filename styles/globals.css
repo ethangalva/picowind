@@ -11,6 +11,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-image: url(http://noisepng.com/100-50-10.png);
   color:black;
+  scroll-behavior: smooth;
 }
 
 a {

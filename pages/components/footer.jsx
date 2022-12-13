@@ -3,7 +3,7 @@ export default function Footer() {
         <div className="bg-[#ecede8]">
             <div className="min-h-min max-h-fit w-100vw p-6 flex flex-col bg-white rounded-t-3xl justify-between gap-12">
                 {/* SECTION 1 */}
-                <div className="flex flex-col gap-8">
+                <div className="flex flex-col gap-8 md:flex-row md:justify-between">
                     {/* CONTACT INFO */}
                     <div className="flex flex-col gap-4">
                         {/* brand */}
@@ -29,31 +29,33 @@ export default function Footer() {
                     {/* LINKS BACK TO ID'S */}
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-2xl">Find your way</h1>
-                        <div className="grid grid-cols-2 grid-rows-2 gap-2">
-                            <a href="#" className="font-medium text-lg hover:underline">Home</a>
-                            <a href="#" className="font-medium text-lg hover:underline">Project</a>
-                            <a href="#" className="font-medium text-lg hover:underline">About Us</a>
-                            <a href="#" className="font-medium text-lg hover:underline">Article</a>
+                        <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-4">
+                            <a href="#home" className="font-medium text-lg hover:underline">Home</a>
+                            <a href="#aboutus" className="font-medium text-lg hover:underline">About Us</a>
+                            <a href="#services" className="font-medium text-lg hover:underline">Services</a>
+                            <a href="#project" className="font-medium text-lg hover:underline">Project</a>
+                            <a href="#testimonials" className="font-medium text-lg hover:underline">Testimonials</a>
                         </div>
                     </div>
                     {/* PROJECT LINKS */}
                     <div className="flex flex-col gap-4">
                         <h1 className="font-semibold text-2xl">Project Links</h1>
-                        <div className="grid grid-cols-2 grid-rows-2 gap-2">
+                        <div className="grid grid-cols-2 grid-rows-2 gap-2 md:gap-4">
                             <a href="https://github.com/ethangalva" target="_blank" rel="noreferrer" className="font-medium text-lg hover:underline">Github</a>
-                            <a href="#" className="font-medium text-lg hover:underline">Linked In</a>
-                            <a href="#" className="font-medium text-lg hover:underline">Read Me</a>
-                            <a href="#" className="font-medium text-lg hover:underline">Portofolio</a>
-                            <a href="https://dribbble.com/shots/19808444-Dutchwind-Mobile-rensponsive-energy-Sunnyday" target="_blank" rel="noreferrer"  className="font-medium text-lg hover:underline">Inspiration</a>
+                            <a href="https://www.linkedin.com/in/ethan-galvan-5774a0232/" target="_blank" rel="noreferrer" className="font-medium text-lg hover:underline">Linked In</a>
+                            <a href="https://github.com/ethangalva/picowind/blob/main/README.md" target="_blank" rel="noreferrer" className="font-medium text-lg hover:underline">Read Me</a>
+                            <a href="#" target="_blank" rel="noreferrer" className="font-medium text-lg hover:underline">Portofolio</a>
+                            <a href="https://dribbble.com/shots/19808444-Dutchwind-Mobile-rensponsive-energy-Sunnyday" target="_blank" rel="noreferrer"  className="font-medium text-lg hover:underline">Based</a>
                             <a href="https://dribbble.com/sunnydayatteamup" target="_blank" rel="noreferrer"  className="font-medium text-lg hover:underline">Credits</a>
-
                         </div>
                     </div>
                 </div>
+                {/* separator line */}
+                <div className="w-full bg-black h-px"></div>
                 {/* SECTION 2 */}
                 <div>
                     {/* RIGHTs */}
-                    <div className="relative bottom-0 inset-x-0 flex justify-start">
+                    <div className="relative bottom-0 inset-x-0 flex justify-start md:justify-center">
                         <a href="https://github.com/ethangalva" target="_blank" rel="noreferrer" className="font-bold hover:underline" >by @ethangalva</a>
                     </div>
                 </div>

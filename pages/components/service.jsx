@@ -1,11 +1,11 @@
 export default function Service() {
     return (
-        <div className="bg-white">
+        <div className="bg-white" id="services">
             <div className="flex flex-col p-6 gap-4 justify-between bg-[#ecede8] rounded-t-3xl">
                 {/* TITLE */}
-                <h2 className="font-bold text-2xl">Our Services</h2>
+                <h2 className="font-bold text-2xl md:text-4xl lg:text-6xl">Our Services</h2>
                 {/* SERVICES BOXES */}
-                <div className="justify-center w-full flex flex-col gap-4">
+                <div className="justify-center w-full flex flex-col gap-4 md:flex-row lg:gap-8">
                     <div className="border border-neutral-400 rounded-xl p-4 flex flex-col gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#f2653e" className="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
                             <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
