@@ -24,7 +24,7 @@ a {
 }
 
 /* CSS */
-button {
+.contactUsNow {
   background-color: #f2653e;
   border: 3px solid #422800;
   border-radius: 8px;
@@ -43,11 +43,11 @@ button {
   touch-action: manipulation;
 }
 
-button:hover {
+.contactUsNow:hover {
   background-color: #fe6a41;
 }
 
-button:active {
+.contactUsNow:active {
   transform: translate(2px, 2px);
 }
 
